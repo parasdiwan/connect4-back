@@ -10,6 +10,7 @@ Pre-requisites
 - Redis
 - Jetty
 
--Create a database in mysql and import project's schema from schema.sql. You can use `mysql -u <username> -p gluck < schema.sql`
+Steps to setup project
+- Create a database in mysql and import project's schema from schema.sql. You can use `mysql -u <username> -p gluck < schema.sql`
 - Install all the above tools and navigate to this project and type command `mvn clean install jetty:run` 
 - Install redis and run it on the default port 6379
